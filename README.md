@@ -1,4 +1,8 @@
-# my-vue-cli
+## demo
+
+> http://yangchaojie.top:3000
+
+## my-vue-cli
 
 > my vue cli
 
@@ -27,7 +31,6 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
 ## 脚手架功能
@@ -38,5 +41,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 2. 结合vue-router 实现前台页面间未登录状态的拦截 
 3. 使用vuex 保存token方便存取（使用localstorage持久化）
 4. 使用Hmacsha256 做参数 摘要验证，识别请求伪造
-5. 结合mint-ui 做UI框架，适用快速开发
-6. 提供一些工具方法 saveAsFile（文件流保存为文件）downloadImg（下载图片）myBrowser（判断当前浏览器）isMobile（判断手机端）formatDate（格式化时间）
+5. 使用amfe-flexible 做REM适配
+6. 结合mint-ui 做UI框架，适用快速开发
+7. 提供一些工具方法 saveAsFile（文件流保存为文件）downloadImg（下载图片）myBrowser（判断当前浏览器）isMobile（判断手机端）formatDate（格式化时间）

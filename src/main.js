@@ -5,7 +5,7 @@ import App from './App'
 import router from './router/router'
 import store from '@/store/store'
 import ajax from '@/utils/ajax'
-
+import 'amfe-flexible' // rem
 import { Loadmore } from 'mint-ui';
 
 Vue.component(Loadmore.name, Loadmore);
